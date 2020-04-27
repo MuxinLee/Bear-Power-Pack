@@ -58,8 +58,14 @@ Hope these workflows can be useful examples and inspire to more workflows. Hopef
 	* Convert a note into clickable template action links in one “Templates” note
 * [Alfred 3 workflow to create and search notes in Bear](https://github.com/chrisbro/alfred-bear) - Mac
 
+* [Alfred 3 workflow to create and search notes in Bear](https://github.com/drgrib/alfred-bear/) - Mac
 PS. I got Bear for distraction free writing – see how that worked … 😉
+> I am especially grateful to Chris Brown, who created a [Python based Bear workflow](https://github.com/chrisbro/alfred-bear). It was the basis for this project. However, I decided to create my own project for a few reasons:
 
+  * Compiled Go is faster than interpretted Python. Not that much faster but fast enough for me to notice when searching and creating notes throughout the day.
+  * I wanted the features involving tag searching and autocompletion, link pasting, and automatic clipboard note content.
+  * I wanted fewer, more optimized SQL queries into the Bear database to increase speed since this appears to be the main bottleneck on performance.
+  
 > *Disclaimer: these workflows are free to use, change, or fix.*
 > *There will be no user support, but it’s quite easy to modify them.*
 > *If you mess up, just download a fresh copy. Have fun!* 🤓
